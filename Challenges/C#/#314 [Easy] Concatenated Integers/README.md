@@ -5,22 +5,22 @@ Leading 0s are not allowed (e.g. 01234 is not a valid entry).
 
 ## Sample Input
 
-You'll be given a handful of integers per line. Example:
-5 56 50
+You'll be given a handful of integers per line. <br />
+Example: 5 56 50
 
 ## Sample Output
 
-You should emit the smallest and largest integer you can make, per line. Example:
-50556 56550
+You should emit the smallest and largest integer you can make, per line.  <br />
+Example: 50556 56550
 
 ## Challenge Input
 
-79 82 34 83 69
-420 34 19 71 341
-17 32 91 7 46
+79 82 34 83 69 <br />
+420 34 19 71 341 <br />
+17 32 91 7 46 <br />
 
 ## Challenge Output
 
-3469798283 8382796934
-193413442071 714203434119
+3469798283 8382796934 <br />
+193413442071 714203434119 <br />
 173246791 917463217
