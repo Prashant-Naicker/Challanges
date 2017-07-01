@@ -37,7 +37,8 @@ namespace Subset_Sum
             List<int> list = new List<int>();
             for (int i = 0; i < arr.Length; i++)
             {
-                if(arr[i] < 0) { list.Add(arr[i]);  }
+                if (arr[i] == 0) { Console.WriteLine("true"); Console.ReadLine(); }
+                if (arr[i] < 0) { list.Add(arr[i]);  }
             }
 
             return list;
@@ -48,6 +49,7 @@ namespace Subset_Sum
             List<int> list = new List<int>();
             for (int i = 0; i < arr.Length; i++)
             {
+                if (arr[i] == 0) { Console.WriteLine("true"); Console.ReadLine(); }
                 if (arr[i] > 0) { list.Add(arr[i]); }
             }
 
